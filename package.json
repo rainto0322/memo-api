@@ -1,0 +1,29 @@
+{
+  "name": "memo-api",
+  "version": "1.0.1",
+  "main": "./dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup --config",
+    "dev": "bun run --watch ./index.js"
+  },
+  "author": "Rainto <rainto0322@foxmail.com>",
+  "keywords": [
+    "server",
+    "api",
+    "json",
+    "schema",
+    "web"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rainto0322/memo-api.git"
+  },
+  "license": "MIT",
+  "description": "A simple dynamic routing web framework.",
+  "devDependencies": {
+    "rollup": "^4.24.0",
+    "@rollup/plugin-terser": "^0.4.4",
+    "@rollup/plugin-commonjs": "^28.0.1"
+  }
+}
