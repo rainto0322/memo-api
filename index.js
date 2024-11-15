@@ -1,2 +1,2 @@
-import { MemoApi } from "./src";
+const { MemoApi } = require("./src")
 module.exports = { MemoApi }

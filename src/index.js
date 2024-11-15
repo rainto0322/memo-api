@@ -109,6 +109,9 @@ export class MemoApi {
         }
       }
     }
+    const error = new Error("ʕ•̮͡•ʔ 404 not found this route.")
+    error.code = 404
+    await this.errorHandle(error, res)
   }
 
   // Check domain whitelist
